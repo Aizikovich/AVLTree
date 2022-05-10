@@ -3,8 +3,8 @@ import AVLNode;
 
 public class AVL<T> {
 
-	AVLNode<T> root;
-	int size;
+	private AVLNode<T> root;
+	private size;
 
 	public AVL(){
 		this.root = null;
